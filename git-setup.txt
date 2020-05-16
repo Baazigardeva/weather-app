@@ -1,2 +1,5 @@
-git init -> initializes .git in project
-git status
+git init // Initializes .git in project
+git status // Shows which files are in staging area and which are not
+git add . // Add everything in directory in staging area
+
+git commit -m "Init commit"
