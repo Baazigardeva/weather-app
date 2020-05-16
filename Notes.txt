@@ -1,0 +1,22 @@
+Weather API - To get Weather
+
+http://api.weatherstack.com/current?access_key=97e4866f00a0abad740a2370947a8a7c&query=30.338430,76.830090
+
+> Access Key unique for every account made on weatherstack website.
+> Query consist of Latitude, Longitude of location.
+
+------------------------------------------------------------------------------------------------
+Mapbox API - To get place name, coordinates (Latitude, Longitude)
+
+https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiZGV2YW5hbmRzaGFybWEwNSIsImEiOiJjazlrMGNzd2kwMnp2M2hsZmdmYndvMDJ5In0.jPUzjtaO0PJJKHkKaPFcaA&limit=1
+
+------------------------------------------------------------------------------------------------
+By defaut nodemon does not watch hbs extensions 
+To add hbs, js extensions in watching list of nodemon
+i.e., To restart the server automatically whenever we make changes in views - hbs
+> nodemon src/app -e js,hbs
+
+------------------------------------------------------------------------------------------------
+
+
+http://localhost:3000/weather?address=california
