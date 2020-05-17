@@ -45,12 +45,16 @@ header a {
 }
 
 button {
-    background-color: rgb(38, 0, 255); /* Green */
+    background-color: #0011ff;
     border: none;
     color: white;
-    padding: 4px;
+    padding: 9px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+}
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
 }
