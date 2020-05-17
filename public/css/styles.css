@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: #000000;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -7,14 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2017/12/29/christmas-day-weather-over-terranora-australia-wallpaper.jpg');
 }
 .main-content {
     flex-grow: 1;
-    background-image: url('/wall.jpg');
 }
 
 footer {
-    color: #888888;
+    color: #000000;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -30,7 +30,7 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: #000000;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -45,7 +45,7 @@ header a {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: rgb(38, 0, 255); /* Green */
     border: none;
     color: white;
     padding: 4px;
