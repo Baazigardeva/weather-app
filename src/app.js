@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         helptext: 'Some helpful text',
         title: 'About Me',
-        name: 'Thomas Shelby'
+        name: 'Devanand Sharma'
     })
 })
 
@@ -82,7 +82,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Thomas Shelby',
+        name: 'Devanand Sharma',
         errorMessage: 'Help article Not Found !!'
     })
 })
@@ -90,7 +90,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Thomas Shelby',
+        name: 'Devanand Sharma',
         errorMessage: 'Page Not Found !!'
     })
 })
