@@ -7,9 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../img/download.jpg');
-    background-size: 150%;
-    background-repeat: no-repeat;
+    background-image: url('../img/wallpaper.jpg');
 }
 .main-content {
     flex-grow: 1;
