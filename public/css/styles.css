@@ -7,7 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('https://free4kwallpapers.com/uploads/originals/2017/12/29/christmas-day-weather-over-terranora-australia-wallpaper.jpg');
+    background-image: url('../img/download.jpg');
+    background-position: center center;
+    background-size: 150%;
 }
 .main-content {
     flex-grow: 1;

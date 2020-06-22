@@ -1,5 +1,18 @@
 Weather API - To get Weather
 
+Code reference : https://github.com/andrewjmead/node-course-v3-code/tree/master/web-server
+-----------------------------------------------------------------------------------------------
+Default run command > node src/app.js
+
+But if we make some changes in package.json file -
+
+          "scripts": {
+              "start":"node src/app.js"
+          }
+
+Then command wil be  > npm run start  
+    This will run the code inside start
+--------------------------------------------------------------------------------------------------------
 http://api.weatherstack.com/current?access_key=97e4866f00a0abad740a2370947a8a7c&query=30.338430,76.830090
 
 > Access Key unique for every account made on weatherstack website.
@@ -20,3 +33,4 @@ i.e., To restart the server automatically whenever we make changes in views - hb
 
 
 http://localhost:3000/weather?address=california
+
