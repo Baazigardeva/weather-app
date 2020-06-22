@@ -11,7 +11,6 @@ body {
     background-position: center center;
     background-size: 150%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .main-content {
     flex-grow: 1;
